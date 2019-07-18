@@ -6869,3 +6869,16 @@ module RuboCop::YAMLDuplicationChecker
   def self.check(yaml_string, filename, &on_duplicated); end
   def self.traverse(tree, &on_duplicated); end
 end
+module SorbetProgress
+end
+class SorbetProgress::Error < StandardError
+  extend T::Sig
+  extend T::Sig
+  extend T::Sig
+  extend T::Sig
+end
+class SorbetProgress::Metric
+  def name; end
+  def value; end
+  extend T::Sig
+end

@@ -145,9 +145,7 @@
 # undefined method `flatten$1' for class `Array'
 # undefined method `index$2' for class `Array'
 # undefined method `initialize$2' for class `Array'
-# Did you mean?  initialize
 # undefined method `insert$1' for class `Array'
-# Did you mean?  inspect
 # undefined method `join$1' for class `Array'
 # undefined method `last$2' for class `Array'
 # undefined method `permutation$2' for class `Array'
@@ -205,20 +203,16 @@
 # undefined method `div$2' for class `BigDecimal'
 # undefined method `power$2' for class `BigDecimal'
 # undefined method `to_s$1' for class `BigDecimal'
-# Did you mean?  to_s
 # wrong constant name _dump$1
 # wrong constant name clone
 # wrong constant name div$2
 # wrong constant name power$2
 # wrong constant name to_s$1
-# wrong constant name _load
-# wrong constant name double_fig
-# wrong constant name limit
-# wrong constant name mode
+# undefined singleton method `limit$1' for `BigDecimal'
+# undefined singleton method `mode$1' for `BigDecimal'
+# wrong constant name limit$1
+# wrong constant name mode$1
 # wrong constant name new
-# wrong constant name save_exception_mode
-# wrong constant name save_limit
-# wrong constant name save_rounding_mode
 # wrong constant name clone
 # wrong constant name irb
 # wrong constant name local_variable_defined?
@@ -385,6 +379,7 @@
 # wrong constant name run
 # wrong constant name <static-init>
 # wrong constant name <static-init>
+# uninitialized constant Bundler::Index::Elem
 # wrong constant name initialize
 # wrong constant name inject
 # wrong constant name remove
@@ -400,6 +395,8 @@
 # wrong constant name ambiguous_gems
 # wrong constant name ambiguous_gems=
 # wrong constant name install
+# uninitialized constant Bundler::Molinillo::DependencyGraph::Elem
+# uninitialized constant Bundler::Molinillo::DependencyGraph::Log::Elem
 # wrong constant name ==
 # wrong constant name app_cache_dirname
 # wrong constant name app_cache_path
@@ -470,9 +467,7 @@
 # wrong constant name generate_bin
 # wrong constant name <static-init>
 # uninitialized constant Bundler::Plugin::Installer::Rubygems::API_REQUEST_LIMIT
-# Did you mean?  Bundler::Plugin::Installer::Rubygems::API_REQUEST_SIZE
 # uninitialized constant Bundler::Plugin::Installer::Rubygems::API_REQUEST_SIZE
-# Did you mean?  Bundler::Plugin::Installer::Rubygems::API_REQUEST_LIMIT
 # wrong constant name <static-init>
 # wrong constant name <static-init>
 # wrong constant name <static-init>
@@ -494,7 +489,6 @@
 # uninitialized constant Bundler::RubyGemsGemInstaller::ENV_PATHS
 # wrong constant name <static-init>
 # uninitialized constant Bundler::RubygemsIntegration::MoreFuture::EXT_LOCK
-# Did you mean?  Bundler::RubygemsIntegration::EXT_LOCK
 # wrong constant name default_stubs
 # wrong constant name ==
 # wrong constant name fallback_timeout
@@ -520,6 +514,7 @@
 # wrong constant name <static-init>
 # wrong constant name <static-init>
 # wrong constant name validate!
+# uninitialized constant Bundler::SpecSet::Elem
 # wrong constant name add_color
 # wrong constant name ask
 # wrong constant name confirm
@@ -599,7 +594,6 @@
 # uninitialized constant Chalk
 # uninitialized constant Chalk
 # undefined method `initialize$2' for class `Class'
-# Did you mean?  initialize
 # wrong constant name initialize$2
 # wrong constant name json_creatable?
 # wrong constant name polar
@@ -627,48 +621,29 @@
 # wrong constant name const_missing
 # wrong constant name delegating_block
 # wrong constant name public_api
-# wrong constant name class_name
-# wrong constant name class_names
-# wrong constant name corrections
-# wrong constant name initialize
-# wrong constant name scopes
-# wrong constant name corrections
-# wrong constant name original_message
-# wrong constant name spell_checker
-# wrong constant name to_s
+# uninitialized constant DidYouMean::ClassNameChecker
+# uninitialized constant DidYouMean::ClassNameChecker
+# uninitialized constant DidYouMean::Correctable
+# uninitialized constant DidYouMean::Correctable
 # uninitialized constant DidYouMean::Formatter
 # uninitialized constant DidYouMean::Formatter
-# wrong constant name distance
-# wrong constant name distance
-# wrong constant name corrections
-# wrong constant name initialize
-# wrong constant name <static-init>
-# wrong constant name distance
-# wrong constant name min3
-# wrong constant name corrections
-# wrong constant name initialize
-# wrong constant name method_name
-# wrong constant name method_names
-# wrong constant name receiver
-# wrong constant name NameErrorCheckers$1
-# wrong constant name NameErrorCheckers$1
-# wrong constant name corrections
-# wrong constant name initialize
-# wrong constant name message_for
-# wrong constant name <static-init>
-# wrong constant name correct
-# wrong constant name initialize
-# wrong constant name corrections
-# wrong constant name cvar_names
-# wrong constant name initialize
-# wrong constant name ivar_names
-# wrong constant name lvar_names
-# wrong constant name method_names
-# wrong constant name name
-# wrong constant name formatter
-# wrong constant name formatter=
+# uninitialized constant DidYouMean::Jaro
+# uninitialized constant DidYouMean::Jaro
+# uninitialized constant DidYouMean::JaroWinkler
+# uninitialized constant DidYouMean::JaroWinkler
+# uninitialized constant DidYouMean::Levenshtein
+# uninitialized constant DidYouMean::Levenshtein
+# uninitialized constant DidYouMean::MethodNameChecker
+# uninitialized constant DidYouMean::MethodNameChecker
+# uninitialized constant DidYouMean::NameErrorCheckers
+# uninitialized constant DidYouMean::NameErrorCheckers
+# uninitialized constant DidYouMean::NullChecker
+# uninitialized constant DidYouMean::NullChecker
+# uninitialized constant DidYouMean::SpellChecker
+# uninitialized constant DidYouMean::SpellChecker
+# uninitialized constant DidYouMean::VariableNameChecker
+# uninitialized constant DidYouMean::VariableNameChecker
 # undefined method `initialize$1' for class `Dir'
-# Did you mean?  initialize
 # wrong constant name children
 # wrong constant name each_child
 # wrong constant name initialize$1
@@ -694,7 +669,6 @@
 # wrong constant name mktmpdir$2
 # wrong constant name tmpdir
 # undefined method `initialize$1' for class `ERB'
-# Did you mean?  initialize
 # wrong constant name def_method
 # wrong constant name def_module
 # wrong constant name initialize$1
@@ -767,7 +741,6 @@
 # wrong constant name first$2
 # wrong constant name grep_v
 # wrong constant name inject$2
-# wrong constant name lazy
 # wrong constant name max$2
 # wrong constant name max_by$2
 # wrong constant name min$2
@@ -787,7 +760,6 @@
 # wrong constant name zip
 # undefined method `each$2' for class `Enumerator'
 # undefined method `initialize$1' for class `Enumerator'
-# Did you mean?  initialize
 # undefined method `with_index$2' for class `Enumerator'
 # wrong constant name +
 # wrong constant name <Class:ArithmeticSequence>
@@ -977,9 +949,7 @@
 # wrong constant name systmpdir
 # wrong constant name uname
 # undefined method `exception$1' for class `Exception'
-# Did you mean?  exception
 # undefined method `initialize$1' for class `Exception'
-# Did you mean?  initialize
 # wrong constant name exception$1
 # wrong constant name full_message
 # wrong constant name initialize$1
@@ -1049,7 +1019,6 @@
 # wrong constant name writable_real?
 # wrong constant name zero?
 # uninitialized constant FileUtils::DryRun::VERSION
-# Did you mean?  FileUtils::VERSION
 # wrong constant name blockdev?
 # wrong constant name chardev?
 # wrong constant name chmod
@@ -1084,9 +1053,7 @@
 # wrong constant name traverse
 # wrong constant name wrap_traverse
 # uninitialized constant FileUtils::NoWrite::VERSION
-# Did you mean?  FileUtils::VERSION
 # uninitialized constant FileUtils::Verbose::VERSION
-# Did you mean?  FileUtils::VERSION
 # undefined singleton method `cp_r$1' for `FileUtils'
 # undefined singleton method `mkdir_p$1' for `FileUtils'
 # wrong constant name cd
@@ -1143,7 +1110,6 @@
 # wrong constant name find
 # wrong constant name prune
 # undefined method `rationalize$2' for class `Float'
-# Did you mean?  Rational
 # wrong constant name rationalize$2
 # wrong constant name def_delegator
 # wrong constant name def_delegators
@@ -2525,8 +2491,6 @@
 # wrong constant name update_cache?
 # wrong constant name uri
 # uninitialized constant Gem::Source::Git::FILES
-# Did you mean?  File
-#                Gem::Source::FILES
 # wrong constant name base_dir
 # wrong constant name cache
 # wrong constant name checkout
@@ -2548,27 +2512,20 @@
 # wrong constant name uri_hash
 # wrong constant name <static-init>
 # uninitialized constant Gem::Source::Installed::FILES
-# Did you mean?  File
-#                Gem::Source::FILES
 # wrong constant name download
 # wrong constant name initialize
 # wrong constant name <static-init>
 # uninitialized constant Gem::Source::Local::FILES
-# Did you mean?  File
-#                Gem::Source::FILES
 # wrong constant name download
 # wrong constant name fetch_spec
 # wrong constant name find_gem
 # wrong constant name initialize
 # wrong constant name <static-init>
 # uninitialized constant Gem::Source::Lock::FILES
-# Did you mean?  File
-#                Gem::Source::FILES
 # wrong constant name initialize
 # wrong constant name wrapped
 # wrong constant name <static-init>
 # uninitialized constant Gem::Source::SpecificFile::FILES
-# Did you mean?  Gem::Source::FILES
 # wrong constant name fetch_spec
 # wrong constant name initialize
 # wrong constant name load_specs
@@ -2576,8 +2533,6 @@
 # wrong constant name spec
 # wrong constant name <static-init>
 # uninitialized constant Gem::Source::Vendor::FILES
-# Did you mean?  File
-#                Gem::Source::FILES
 # wrong constant name initialize
 # wrong constant name <static-init>
 # wrong constant name <static-init>
@@ -3028,8 +2983,6 @@
 # undefined method `default$2' for class `Hash'
 # undefined method `fetch$2' for class `Hash'
 # undefined method `initialize$2' for class `Hash'
-# Did you mean?  initialize
-# undefined method `merge$2' for class `Hash'
 # wrong constant name <
 # wrong constant name <=
 # wrong constant name >
@@ -3046,7 +2999,6 @@
 # wrong constant name flatten
 # wrong constant name index
 # wrong constant name initialize$2
-# wrong constant name merge$2
 # wrong constant name merge!
 # wrong constant name replace
 # wrong constant name slice
@@ -3063,11 +3015,9 @@
 # undefined method `each_line$2' for class `IO'
 # undefined method `fcntl$1' for class `IO'
 # undefined method `initialize$1' for class `IO'
-# Did you mean?  initialize
 # undefined method `ioctl$1' for class `IO'
 # undefined method `lines$2' for class `IO'
 # undefined method `read$1' for class `IO'
-# Did you mean?  read
 # undefined method `read_nonblock$2' for class `IO'
 # undefined method `readpartial$2' for class `IO'
 # undefined method `reopen$2' for class `IO'
@@ -3076,7 +3026,6 @@
 # undefined method `sysread$1' for class `IO'
 # undefined method `sysseek$1' for class `IO'
 # undefined method `write$1' for class `IO'
-# Did you mean?  write
 # wrong constant name advise$1
 # wrong constant name beep
 # wrong constant name cooked
@@ -3190,11 +3139,8 @@
 # wrong constant name ntop
 # undefined method `chr$2' for class `Integer'
 # undefined method `inspect$1' for class `Integer'
-# Did you mean?  inspect
 # undefined method `rationalize$2' for class `Integer'
-# Did you mean?  Rational
 # undefined method `to_s$1' for class `Integer'
-# Did you mean?  to_s
 # wrong constant name allbits?
 # wrong constant name anybits?
 # wrong constant name chr$2
@@ -3206,78 +3152,8 @@
 # wrong constant name to_bn
 # wrong constant name to_s$1
 # wrong constant name sqrt
-# wrong constant name <Class:Generator>
-# wrong constant name <Class:Parser>
-# wrong constant name <Class:GeneratorMethods>
-# wrong constant name <Class:State>
-# wrong constant name <Class:Array>
-# wrong constant name <Class:FalseClass>
-# wrong constant name <Class:Float>
-# wrong constant name <Class:Hash>
-# wrong constant name <Class:Integer>
-# wrong constant name <Class:NilClass>
-# wrong constant name <Class:Object>
-# wrong constant name <Class:String>
-# wrong constant name <Class:TrueClass>
-# wrong constant name to_json
-# wrong constant name <static-init>
-# wrong constant name to_json
-# wrong constant name <static-init>
-# wrong constant name to_json
-# wrong constant name <static-init>
-# wrong constant name to_json
-# wrong constant name <static-init>
-# wrong constant name to_json
-# wrong constant name <static-init>
-# wrong constant name to_json
-# wrong constant name <static-init>
-# wrong constant name to_json
-# wrong constant name <static-init>
-# wrong constant name <Class:Extend>
-# wrong constant name to_json
-# wrong constant name to_json_raw
-# wrong constant name to_json_raw_object
-# wrong constant name json_create
-# wrong constant name <static-init>
-# wrong constant name <static-init>
-# wrong constant name to_json
-# wrong constant name <static-init>
-# wrong constant name <static-init>
-# wrong constant name []
-# wrong constant name []=
-# wrong constant name allow_nan?
-# wrong constant name array_nl
-# wrong constant name array_nl=
-# wrong constant name ascii_only?
-# wrong constant name buffer_initial_length
-# wrong constant name buffer_initial_length=
-# wrong constant name check_circular?
-# wrong constant name configure
-# wrong constant name depth
-# wrong constant name depth=
-# wrong constant name generate
-# wrong constant name indent
-# wrong constant name indent=
-# wrong constant name initialize
-# wrong constant name max_nesting
-# wrong constant name max_nesting=
-# wrong constant name merge
-# wrong constant name object_nl
-# wrong constant name object_nl=
-# wrong constant name space
-# wrong constant name space=
-# wrong constant name space_before
-# wrong constant name space_before=
-# wrong constant name to_h
-# wrong constant name to_hash
-# wrong constant name <static-init>
 # wrong constant name from_state
-# wrong constant name <static-init>
 # wrong constant name initialize
-# wrong constant name parse
-# wrong constant name source
-# wrong constant name <static-init>
-# wrong constant name <static-init>
 # undefined singleton method `dump$1' for `JSON'
 # undefined singleton method `generate$1' for `JSON'
 # undefined singleton method `pretty_generate$1' for `JSON'
@@ -3289,39 +3165,19 @@
 # wrong constant name <static-init>
 # wrong constant name <static-init>
 # undefined method `clone$1' for module `Kernel'
-# Did you mean?  clone
 # undefined method `define_singleton_method$2' for module `Kernel'
-# Did you mean?  define_singleton_method
 # undefined method `display$1' for module `Kernel'
-# Did you mean?  display
 # undefined method `enum_for$2' for module `Kernel'
-# Did you mean?  enum_for
 # undefined method `exit$2' for module `Kernel'
-# Did you mean?  exit
-#                exit!
 # undefined method `extend$1' for module `Kernel'
-# Did you mean?  extend
-#                extended
 # undefined method `methods$1' for module `Kernel'
-# Did you mean?  methods
-#                method
-#                method
 # undefined method `private_methods$1' for module `Kernel'
-# Did you mean?  private_methods
 # undefined method `protected_methods$1' for module `Kernel'
-# Did you mean?  protected_methods
 # undefined method `public_methods$1' for module `Kernel'
-# Did you mean?  public_methods
-#                public_method
 # undefined method `public_send$1' for module `Kernel'
-# Did you mean?  public_send
 # undefined method `send$2' for module `Kernel'
-# Did you mean?  send
 # undefined method `singleton_methods$1' for module `Kernel'
-# Did you mean?  singleton_methods
-#                singleton_method
 # undefined method `to_enum$2' for module `Kernel'
-# Did you mean?  to_enum
 # wrong constant name clone$1
 # wrong constant name define_singleton_method$2
 # wrong constant name display$1
@@ -3378,51 +3234,27 @@
 # uninitialized constant Minitest::Spec::E
 # uninitialized constant Minitest::Spec::PASSTHROUGH_EXCEPTIONS
 # uninitialized constant Minitest::Spec::SIGNALS
-# Did you mean?  Signal
 # uninitialized constant Minitest::Spec::TEARDOWN_METHODS
 # uninitialized constant Minitest::Spec::UNDEFINED
 # uninitialized constant Minitest::Test::E
 # uninitialized constant Minitest::Test::SIGNALS
-# Did you mean?  Signal
 # uninitialized constant Minitest::Test::UNDEFINED
 # undefined method `class_eval$2' for class `Module'
-# Did you mean?  class_eval
 # undefined method `class_variables$1' for class `Module'
-# Did you mean?  class_variables
-#                class_variable_set
-#                class_variable_get
 # undefined method `const_defined?$1' for class `Module'
-# Did you mean?  const_defined?
 # undefined method `const_get$1' for class `Module'
-# Did you mean?  const_get
-#                const_set
 # undefined method `constants$1' for class `Module'
-# Did you mean?  constants
 # undefined method `define_method$2' for class `Module'
-# Did you mean?  define_method
 # undefined method `instance_methods$1' for class `Module'
-# Did you mean?  instance_methods
-#                instance_method
 # undefined method `method_defined?$1' for class `Module'
-# Did you mean?  method_defined?
-#                method_undefined
 # undefined method `module_eval$2' for class `Module'
-# Did you mean?  module_eval
 # undefined method `private_instance_methods$1' for class `Module'
-# Did you mean?  private_instance_methods
 # undefined method `private_method_defined?$1' for class `Module'
-# Did you mean?  private_method_defined?
 # undefined method `protected_instance_methods$1' for class `Module'
-# Did you mean?  protected_instance_methods
 # undefined method `protected_method_defined?$1' for class `Module'
-# Did you mean?  protected_method_defined?
 # undefined method `public_instance_methods$1' for class `Module'
-# Did you mean?  public_instance_methods
-#                public_instance_method
 # undefined method `public_method_defined?$1' for class `Module'
-# Did you mean?  public_method_defined?
 # undefined method `remove_method$1' for class `Module'
-# Did you mean?  remove_method
 # wrong constant name class_eval$2
 # wrong constant name class_variables$1
 # wrong constant name const_defined?$1
@@ -3466,7 +3298,6 @@
 # wrong constant name receiver
 # undefined method `<<$1' for class `Net::BufferedIO'
 # undefined method `initialize$1' for class `Net::BufferedIO'
-# Did you mean?  initialize
 # undefined method `write$1' for class `Net::BufferedIO'
 # wrong constant name <<$1
 # wrong constant name initialize$1
@@ -3478,21 +3309,15 @@
 # uninitialized constant Net::FTPConnectionError
 # uninitialized constant Net::FTPConnectionError
 # uninitialized constant Net::FTPError
-# Did you mean?  Net::HTTPError
 # uninitialized constant Net::FTPError
-# Did you mean?  Net::HTTPError
 # uninitialized constant Net::FTPPermError
-# Did you mean?  FiberError
 # uninitialized constant Net::FTPPermError
-# Did you mean?  FiberError
 # uninitialized constant Net::FTPProtoError
 # uninitialized constant Net::FTPProtoError
 # uninitialized constant Net::FTPReplyError
 # uninitialized constant Net::FTPReplyError
 # uninitialized constant Net::FTPTempError
-# Did you mean?  TypeError
 # uninitialized constant Net::FTPTempError
-# Did you mean?  TypeError
 # wrong constant name max_retries
 # wrong constant name max_retries=
 # wrong constant name max_version
@@ -3562,21 +3387,13 @@
 # uninitialized constant Net::SMTPAuthenticationError
 # uninitialized constant Net::SMTPAuthenticationError
 # uninitialized constant Net::SMTPError
-# Did you mean?  Net::HTTPError
 # uninitialized constant Net::SMTPError
-# Did you mean?  Net::HTTPError
 # uninitialized constant Net::SMTPFatalError
-# Did you mean?  Net::ProtoFatalError
-#                Net::HTTPFatalError
 # uninitialized constant Net::SMTPFatalError
-# Did you mean?  Net::ProtoFatalError
-#                Net::HTTPFatalError
 # uninitialized constant Net::SMTPServerBusy
 # uninitialized constant Net::SMTPServerBusy
 # uninitialized constant Net::SMTPSyntaxError
-# Did you mean?  Net::ProtoSyntaxError
 # uninitialized constant Net::SMTPSyntaxError
-# Did you mean?  Net::ProtoSyntaxError
 # uninitialized constant Net::SMTPUnknownError
 # uninitialized constant Net::SMTPUnknownError
 # uninitialized constant Net::SMTPUnsupportedCommand
@@ -3585,7 +3402,6 @@
 # wrong constant name io
 # wrong constant name <static-init>
 # undefined method `rationalize$1' for class `NilClass'
-# Did you mean?  Rational
 # wrong constant name rationalize$1
 # wrong constant name to_i
 # wrong constant name args
@@ -3631,10 +3447,18 @@
 # wrong constant name -@
 # wrong constant name /
 # wrong constant name negative?
+# uninitialized constant OpenSSL::Digest::DSS
+# uninitialized constant OpenSSL::Digest::DSS
+# uninitialized constant OpenSSL::Digest::DSS1
+# uninitialized constant OpenSSL::Digest::DSS1
+# uninitialized constant OpenSSL::Digest::SHA
+# uninitialized constant OpenSSL::Digest::SHA
 # wrong constant name <Class:KDFError>
 # wrong constant name <static-init>
 # wrong constant name <static-init>
+# wrong constant name hkdf
 # wrong constant name pbkdf2_hmac
+# wrong constant name scrypt
 # wrong constant name signed?
 # uninitialized constant OpenSSL::PKCS5::PKCS5Error
 # uninitialized constant OpenSSL::PKCS5::PKCS5Error
@@ -3871,7 +3695,6 @@
 # wrong constant name <<
 # wrong constant name ===
 # wrong constant name >>
-# wrong constant name []
 # wrong constant name clone
 # wrong constant name curry$1
 # wrong constant name lambda?
@@ -3974,46 +3797,19 @@
 # wrong constant name symbol
 # wrong constant name symbolize
 # uninitialized constant Psych::ClassLoader::Restricted::BIG_DECIMAL
-# Did you mean?  BigDecimal
-#                Psych::ClassLoader::BIG_DECIMAL
 # uninitialized constant Psych::ClassLoader::Restricted::CACHE
-# Did you mean?  Psych::ClassLoader::CACHE
 # uninitialized constant Psych::ClassLoader::Restricted::COMPLEX
-# Did you mean?  Complex
-#                Psych::ClassLoader::COMPLEX
 # uninitialized constant Psych::ClassLoader::Restricted::DATE
-# Did you mean?  Date
-#                Data
-#                Psych::ClassLoader::DATE
 # uninitialized constant Psych::ClassLoader::Restricted::DATE_TIME
-# Did you mean?  DateTime
-#                Psych::ClassLoader::DATE_TIME
 # uninitialized constant Psych::ClassLoader::Restricted::EXCEPTION
-# Did you mean?  Psych::Exception
-#                Exception
-#                Psych::ClassLoader::EXCEPTION
 # uninitialized constant Psych::ClassLoader::Restricted::OBJECT
-# Did you mean?  Object
-#                Psych::ClassLoader::OBJECT
 # uninitialized constant Psych::ClassLoader::Restricted::PSYCH_OMAP
-# Did you mean?  Psych::ClassLoader::PSYCH_OMAP
 # uninitialized constant Psych::ClassLoader::Restricted::PSYCH_SET
-# Did you mean?  Psych::ClassLoader::PSYCH_SET
 # uninitialized constant Psych::ClassLoader::Restricted::RANGE
-# Did you mean?  Range
-#                Psych::ClassLoader::RANGE
 # uninitialized constant Psych::ClassLoader::Restricted::RATIONAL
-# Did you mean?  Rational
-#                Psych::ClassLoader::RATIONAL
 # uninitialized constant Psych::ClassLoader::Restricted::REGEXP
-# Did you mean?  Regexp
-#                Psych::ClassLoader::REGEXP
 # uninitialized constant Psych::ClassLoader::Restricted::STRUCT
-# Did you mean?  Struct
-#                Psych::ClassLoader::STRUCT
 # uninitialized constant Psych::ClassLoader::Restricted::SYMBOL
-# Did you mean?  Symbol
-#                Psych::ClassLoader::SYMBOL
 # wrong constant name initialize
 # wrong constant name <static-init>
 # wrong constant name <static-init>
@@ -4356,7 +4152,6 @@
 # wrong constant name <Class:CparseParams>
 # wrong constant name <static-init>
 # undefined method `rand$2' for module `Random::Formatter'
-# Did you mean?  rand
 # undefined method `random_number$2' for module `Random::Formatter'
 # wrong constant name alphanumeric
 # wrong constant name rand$2
@@ -4364,7 +4159,6 @@
 # wrong constant name bytes
 # wrong constant name urandom
 # undefined method `initialize$1' for class `Range'
-# Did you mean?  initialize
 # undefined method `last$2' for class `Range'
 # undefined method `step$2' for class `Range'
 # wrong constant name %
@@ -4377,7 +4171,6 @@
 # wrong constant name fire_update!
 # wrong constant name ruby
 # undefined method `initialize$2' for class `Regexp'
-# Did you mean?  initialize
 # undefined method `match$1' for class `Regexp'
 # wrong constant name initialize$2
 # wrong constant name match$1
@@ -4532,18 +4325,12 @@
 # wrong constant name ==
 # wrong constant name eql?
 # uninitialized constant Resolv::DNS::Resource::CNAME::ClassHash
-# Did you mean?  Resolv::DNS::Resource::ClassHash
 # uninitialized constant Resolv::DNS::Resource::CNAME::ClassInsensitiveTypes
-# Did you mean?  Resolv::DNS::Resource::ClassInsensitiveTypes
 # uninitialized constant Resolv::DNS::Resource::CNAME::ClassValue
-# Did you mean?  Resolv::DNS::Resource::ClassValue
 # wrong constant name create
 # uninitialized constant Resolv::DNS::Resource::HINFO::ClassHash
-# Did you mean?  Resolv::DNS::Resource::ClassHash
 # uninitialized constant Resolv::DNS::Resource::HINFO::ClassInsensitiveTypes
-# Did you mean?  Resolv::DNS::Resource::ClassInsensitiveTypes
 # uninitialized constant Resolv::DNS::Resource::HINFO::ClassValue
-# Did you mean?  Resolv::DNS::Resource::ClassValue
 # wrong constant name <Class:ANY>
 # wrong constant name <Class:CNAME>
 # wrong constant name <Class:HINFO>
@@ -4555,109 +4342,62 @@
 # wrong constant name <Class:SOA>
 # wrong constant name <Class:TXT>
 # uninitialized constant Resolv::DNS::Resource::IN::A::ClassHash
-# Did you mean?  Resolv::DNS::Resource::ClassHash
 # uninitialized constant Resolv::DNS::Resource::IN::A::ClassInsensitiveTypes
-# Did you mean?  Resolv::DNS::Resource::ClassInsensitiveTypes
 # uninitialized constant Resolv::DNS::Resource::IN::AAAA::ClassHash
-# Did you mean?  Resolv::DNS::Resource::ClassHash
 # uninitialized constant Resolv::DNS::Resource::IN::AAAA::ClassInsensitiveTypes
-# Did you mean?  Resolv::DNS::Resource::ClassInsensitiveTypes
 # wrong constant name <static-init>
 # uninitialized constant Resolv::DNS::Resource::IN::CNAME::ClassHash
-# Did you mean?  Resolv::DNS::Resource::ClassHash
 # uninitialized constant Resolv::DNS::Resource::IN::CNAME::ClassInsensitiveTypes
-# Did you mean?  Resolv::DNS::Resource::ClassInsensitiveTypes
 # wrong constant name <static-init>
 # uninitialized constant Resolv::DNS::Resource::IN::HINFO::ClassHash
-# Did you mean?  Resolv::DNS::Resource::ClassHash
 # uninitialized constant Resolv::DNS::Resource::IN::HINFO::ClassInsensitiveTypes
-# Did you mean?  Resolv::DNS::Resource::ClassInsensitiveTypes
 # wrong constant name <static-init>
 # uninitialized constant Resolv::DNS::Resource::IN::LOC::ClassHash
-# Did you mean?  Resolv::DNS::Resource::ClassHash
 # uninitialized constant Resolv::DNS::Resource::IN::LOC::ClassInsensitiveTypes
-# Did you mean?  Resolv::DNS::Resource::ClassInsensitiveTypes
 # wrong constant name <static-init>
 # uninitialized constant Resolv::DNS::Resource::IN::MINFO::ClassHash
-# Did you mean?  Resolv::DNS::Resource::ClassHash
 # uninitialized constant Resolv::DNS::Resource::IN::MINFO::ClassInsensitiveTypes
-# Did you mean?  Resolv::DNS::Resource::ClassInsensitiveTypes
 # wrong constant name <static-init>
 # uninitialized constant Resolv::DNS::Resource::IN::MX::ClassHash
-# Did you mean?  Resolv::DNS::Resource::ClassHash
 # uninitialized constant Resolv::DNS::Resource::IN::MX::ClassInsensitiveTypes
-# Did you mean?  Resolv::DNS::Resource::ClassInsensitiveTypes
 # wrong constant name <static-init>
 # uninitialized constant Resolv::DNS::Resource::IN::NS::ClassHash
-# Did you mean?  Resolv::DNS::Resource::ClassHash
 # uninitialized constant Resolv::DNS::Resource::IN::NS::ClassInsensitiveTypes
-# Did you mean?  Resolv::DNS::Resource::ClassInsensitiveTypes
 # wrong constant name <static-init>
 # uninitialized constant Resolv::DNS::Resource::IN::PTR::ClassHash
-# Did you mean?  Resolv::DNS::Resource::ClassHash
 # uninitialized constant Resolv::DNS::Resource::IN::PTR::ClassInsensitiveTypes
-# Did you mean?  Resolv::DNS::Resource::ClassInsensitiveTypes
 # wrong constant name <static-init>
 # uninitialized constant Resolv::DNS::Resource::IN::SOA::ClassHash
-# Did you mean?  Resolv::DNS::Resource::ClassHash
 # uninitialized constant Resolv::DNS::Resource::IN::SOA::ClassInsensitiveTypes
-# Did you mean?  Resolv::DNS::Resource::ClassInsensitiveTypes
 # wrong constant name <static-init>
 # uninitialized constant Resolv::DNS::Resource::IN::SRV::ClassHash
-# Did you mean?  Resolv::DNS::Resource::ClassHash
 # uninitialized constant Resolv::DNS::Resource::IN::SRV::ClassInsensitiveTypes
-# Did you mean?  Resolv::DNS::Resource::ClassInsensitiveTypes
 # uninitialized constant Resolv::DNS::Resource::IN::TXT::ClassHash
-# Did you mean?  Resolv::DNS::Resource::ClassHash
 # uninitialized constant Resolv::DNS::Resource::IN::TXT::ClassInsensitiveTypes
-# Did you mean?  Resolv::DNS::Resource::ClassInsensitiveTypes
 # wrong constant name <static-init>
 # uninitialized constant Resolv::DNS::Resource::IN::WKS::ClassHash
-# Did you mean?  Resolv::DNS::Resource::ClassHash
 # uninitialized constant Resolv::DNS::Resource::IN::WKS::ClassInsensitiveTypes
-# Did you mean?  Resolv::DNS::Resource::ClassInsensitiveTypes
 # uninitialized constant Resolv::DNS::Resource::LOC::ClassHash
-# Did you mean?  Resolv::DNS::Resource::ClassHash
 # uninitialized constant Resolv::DNS::Resource::LOC::ClassInsensitiveTypes
-# Did you mean?  Resolv::DNS::Resource::ClassInsensitiveTypes
 # uninitialized constant Resolv::DNS::Resource::LOC::ClassValue
-# Did you mean?  Resolv::DNS::Resource::ClassValue
 # uninitialized constant Resolv::DNS::Resource::MINFO::ClassHash
-# Did you mean?  Resolv::DNS::Resource::ClassHash
 # uninitialized constant Resolv::DNS::Resource::MINFO::ClassInsensitiveTypes
-# Did you mean?  Resolv::DNS::Resource::ClassInsensitiveTypes
 # uninitialized constant Resolv::DNS::Resource::MINFO::ClassValue
-# Did you mean?  Resolv::DNS::Resource::ClassValue
 # uninitialized constant Resolv::DNS::Resource::MX::ClassHash
-# Did you mean?  Resolv::DNS::Resource::ClassHash
 # uninitialized constant Resolv::DNS::Resource::MX::ClassInsensitiveTypes
-# Did you mean?  Resolv::DNS::Resource::ClassInsensitiveTypes
 # uninitialized constant Resolv::DNS::Resource::MX::ClassValue
-# Did you mean?  Resolv::DNS::Resource::ClassValue
 # uninitialized constant Resolv::DNS::Resource::NS::ClassHash
-# Did you mean?  Resolv::DNS::Resource::ClassHash
 # uninitialized constant Resolv::DNS::Resource::NS::ClassInsensitiveTypes
-# Did you mean?  Resolv::DNS::Resource::ClassInsensitiveTypes
 # uninitialized constant Resolv::DNS::Resource::NS::ClassValue
-# Did you mean?  Resolv::DNS::Resource::ClassValue
 # uninitialized constant Resolv::DNS::Resource::PTR::ClassHash
-# Did you mean?  Resolv::DNS::Resource::ClassHash
 # uninitialized constant Resolv::DNS::Resource::PTR::ClassInsensitiveTypes
-# Did you mean?  Resolv::DNS::Resource::ClassInsensitiveTypes
 # uninitialized constant Resolv::DNS::Resource::PTR::ClassValue
-# Did you mean?  Resolv::DNS::Resource::ClassValue
 # uninitialized constant Resolv::DNS::Resource::SOA::ClassHash
-# Did you mean?  Resolv::DNS::Resource::ClassHash
 # uninitialized constant Resolv::DNS::Resource::SOA::ClassInsensitiveTypes
-# Did you mean?  Resolv::DNS::Resource::ClassInsensitiveTypes
 # uninitialized constant Resolv::DNS::Resource::SOA::ClassValue
-# Did you mean?  Resolv::DNS::Resource::ClassValue
 # uninitialized constant Resolv::DNS::Resource::TXT::ClassHash
-# Did you mean?  Resolv::DNS::Resource::ClassHash
 # uninitialized constant Resolv::DNS::Resource::TXT::ClassInsensitiveTypes
-# Did you mean?  Resolv::DNS::Resource::ClassInsensitiveTypes
 # uninitialized constant Resolv::DNS::Resource::TXT::ClassValue
-# Did you mean?  Resolv::DNS::Resource::ClassValue
 # wrong constant name get_class
 # wrong constant name allocate_request_id
 # wrong constant name bind_random_port
@@ -4685,11 +4425,9 @@
 # uninitialized constant RuboCop::AST::ArrayNode::EQUALS_ASSIGNMENTS
 # uninitialized constant RuboCop::AST::ArrayNode::FALSEY_LITERALS
 # uninitialized constant RuboCop::AST::ArrayNode::IMMUTABLE_LITERALS
-# Did you mean?  RuboCop::AST::ArrayNode::MUTABLE_LITERALS
 # uninitialized constant RuboCop::AST::ArrayNode::KEYWORDS
 # uninitialized constant RuboCop::AST::ArrayNode::LITERALS
 # uninitialized constant RuboCop::AST::ArrayNode::MUTABLE_LITERALS
-# Did you mean?  RuboCop::AST::ArrayNode::IMMUTABLE_LITERALS
 # uninitialized constant RuboCop::AST::ArrayNode::OPERATOR_KEYWORDS
 # uninitialized constant RuboCop::AST::ArrayNode::REFERENCES
 # uninitialized constant RuboCop::AST::ArrayNode::SHORTHAND_ASSIGNMENTS
@@ -4705,11 +4443,9 @@
 # uninitialized constant RuboCop::AST::BlockNode::EQUALS_ASSIGNMENTS
 # uninitialized constant RuboCop::AST::BlockNode::FALSEY_LITERALS
 # uninitialized constant RuboCop::AST::BlockNode::IMMUTABLE_LITERALS
-# Did you mean?  RuboCop::AST::BlockNode::MUTABLE_LITERALS
 # uninitialized constant RuboCop::AST::BlockNode::KEYWORDS
 # uninitialized constant RuboCop::AST::BlockNode::LITERALS
 # uninitialized constant RuboCop::AST::BlockNode::MUTABLE_LITERALS
-# Did you mean?  RuboCop::AST::BlockNode::IMMUTABLE_LITERALS
 # uninitialized constant RuboCop::AST::BlockNode::OPERATOR_KEYWORDS
 # uninitialized constant RuboCop::AST::BlockNode::REFERENCES
 # uninitialized constant RuboCop::AST::BlockNode::SHORTHAND_ASSIGNMENTS
@@ -4725,11 +4461,9 @@
 # uninitialized constant RuboCop::AST::KeywordSplatNode::EQUALS_ASSIGNMENTS
 # uninitialized constant RuboCop::AST::KeywordSplatNode::FALSEY_LITERALS
 # uninitialized constant RuboCop::AST::KeywordSplatNode::IMMUTABLE_LITERALS
-# Did you mean?  RuboCop::AST::KeywordSplatNode::MUTABLE_LITERALS
 # uninitialized constant RuboCop::AST::KeywordSplatNode::KEYWORDS
 # uninitialized constant RuboCop::AST::KeywordSplatNode::LITERALS
 # uninitialized constant RuboCop::AST::KeywordSplatNode::MUTABLE_LITERALS
-# Did you mean?  RuboCop::AST::KeywordSplatNode::IMMUTABLE_LITERALS
 # uninitialized constant RuboCop::AST::KeywordSplatNode::OPERATOR_KEYWORDS
 # uninitialized constant RuboCop::AST::KeywordSplatNode::REFERENCES
 # uninitialized constant RuboCop::AST::KeywordSplatNode::SHORTHAND_ASSIGNMENTS
@@ -4747,11 +4481,9 @@
 # uninitialized constant RuboCop::AST::PairNode::EQUALS_ASSIGNMENTS
 # uninitialized constant RuboCop::AST::PairNode::FALSEY_LITERALS
 # uninitialized constant RuboCop::AST::PairNode::IMMUTABLE_LITERALS
-# Did you mean?  RuboCop::AST::PairNode::MUTABLE_LITERALS
 # uninitialized constant RuboCop::AST::PairNode::KEYWORDS
 # uninitialized constant RuboCop::AST::PairNode::LITERALS
 # uninitialized constant RuboCop::AST::PairNode::MUTABLE_LITERALS
-# Did you mean?  RuboCop::AST::PairNode::IMMUTABLE_LITERALS
 # uninitialized constant RuboCop::AST::PairNode::OPERATOR_KEYWORDS
 # uninitialized constant RuboCop::AST::PairNode::REFERENCES
 # uninitialized constant RuboCop::AST::PairNode::SHORTHAND_ASSIGNMENTS
@@ -4767,11 +4499,9 @@
 # uninitialized constant RuboCop::AST::RegexpNode::EQUALS_ASSIGNMENTS
 # uninitialized constant RuboCop::AST::RegexpNode::FALSEY_LITERALS
 # uninitialized constant RuboCop::AST::RegexpNode::IMMUTABLE_LITERALS
-# Did you mean?  RuboCop::AST::RegexpNode::MUTABLE_LITERALS
 # uninitialized constant RuboCop::AST::RegexpNode::KEYWORDS
 # uninitialized constant RuboCop::AST::RegexpNode::LITERALS
 # uninitialized constant RuboCop::AST::RegexpNode::MUTABLE_LITERALS
-# Did you mean?  RuboCop::AST::RegexpNode::IMMUTABLE_LITERALS
 # uninitialized constant RuboCop::AST::RegexpNode::OPERATOR_KEYWORDS
 # uninitialized constant RuboCop::AST::RegexpNode::REFERENCES
 # uninitialized constant RuboCop::AST::RegexpNode::SHORTHAND_ASSIGNMENTS
@@ -4921,9 +4651,7 @@
 # uninitialized constant RuboCop::Cop::Layout::SpaceAroundEqualsInParameterDefault::BYTE_ORDER_MARK
 # uninitialized constant RuboCop::Cop::Layout::SpaceAroundEqualsInParameterDefault::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Layout::SpaceAroundEqualsInParameterDefault::NO_SPACE_COMMAND
-# Did you mean?  RuboCop::Cop::Layout::SpaceAroundEqualsInParameterDefault::SPACE_COMMAND
 # uninitialized constant RuboCop::Cop::Layout::SpaceAroundEqualsInParameterDefault::SPACE_COMMAND
-# Did you mean?  RuboCop::Cop::Layout::SpaceAroundEqualsInParameterDefault::NO_SPACE_COMMAND
 # uninitialized constant RuboCop::Cop::Layout::SpaceAroundKeyword::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Layout::SpaceAroundOperators::BYTE_ORDER_MARK
 # uninitialized constant RuboCop::Cop::Layout::SpaceAroundOperators::LITERAL_REGEX
@@ -4937,32 +4665,24 @@
 # uninitialized constant RuboCop::Cop::Layout::SpaceInsideArrayLiteralBrackets::BYTE_ORDER_MARK
 # uninitialized constant RuboCop::Cop::Layout::SpaceInsideArrayLiteralBrackets::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Layout::SpaceInsideArrayLiteralBrackets::NO_SPACE_COMMAND
-# Did you mean?  RuboCop::Cop::Layout::SpaceInsideArrayLiteralBrackets::SPACE_COMMAND
 # uninitialized constant RuboCop::Cop::Layout::SpaceInsideArrayLiteralBrackets::SPACE_COMMAND
-# Did you mean?  RuboCop::Cop::Layout::SpaceInsideArrayLiteralBrackets::NO_SPACE_COMMAND
 # uninitialized constant RuboCop::Cop::Layout::SpaceInsideArrayPercentLiteral::BYTE_ORDER_MARK
 # uninitialized constant RuboCop::Cop::Layout::SpaceInsideArrayPercentLiteral::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Layout::SpaceInsideHashLiteralBraces::BYTE_ORDER_MARK
 # uninitialized constant RuboCop::Cop::Layout::SpaceInsideHashLiteralBraces::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Layout::SpaceInsideHashLiteralBraces::NO_SPACE_COMMAND
-# Did you mean?  RuboCop::Cop::Layout::SpaceInsideHashLiteralBraces::SPACE_COMMAND
 # uninitialized constant RuboCop::Cop::Layout::SpaceInsideHashLiteralBraces::SPACE_COMMAND
-# Did you mean?  RuboCop::Cop::Layout::SpaceInsideHashLiteralBraces::NO_SPACE_COMMAND
 # uninitialized constant RuboCop::Cop::Layout::SpaceInsideParens::BYTE_ORDER_MARK
 # uninitialized constant RuboCop::Cop::Layout::SpaceInsideParens::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Layout::SpaceInsideParens::NO_SPACE_COMMAND
-# Did you mean?  RuboCop::Cop::Layout::SpaceInsideParens::SPACE_COMMAND
 # uninitialized constant RuboCop::Cop::Layout::SpaceInsideParens::SPACE_COMMAND
-# Did you mean?  RuboCop::Cop::Layout::SpaceInsideParens::NO_SPACE_COMMAND
 # uninitialized constant RuboCop::Cop::Layout::SpaceInsidePercentLiteralDelimiters::BYTE_ORDER_MARK
 # uninitialized constant RuboCop::Cop::Layout::SpaceInsidePercentLiteralDelimiters::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Layout::SpaceInsideRangeLiteral::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Layout::SpaceInsideReferenceBrackets::BYTE_ORDER_MARK
 # uninitialized constant RuboCop::Cop::Layout::SpaceInsideReferenceBrackets::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Layout::SpaceInsideReferenceBrackets::NO_SPACE_COMMAND
-# Did you mean?  RuboCop::Cop::Layout::SpaceInsideReferenceBrackets::SPACE_COMMAND
 # uninitialized constant RuboCop::Cop::Layout::SpaceInsideReferenceBrackets::SPACE_COMMAND
-# Did you mean?  RuboCop::Cop::Layout::SpaceInsideReferenceBrackets::NO_SPACE_COMMAND
 # uninitialized constant RuboCop::Cop::Layout::SpaceInsideStringInterpolation::BYTE_ORDER_MARK
 # uninitialized constant RuboCop::Cop::Layout::SpaceInsideStringInterpolation::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Layout::Tab::BYTE_ORDER_MARK
@@ -5016,12 +4736,8 @@
 # uninitialized constant RuboCop::Cop::Lint::NonLocalExitFromIterator::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Lint::NumberConversion::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Lint::OrderedMagicComments::FROZEN_STRING_LITERAL
-# Did you mean?  RuboCop::Cop::FrozenStringLiteral
-#                RuboCop::Cop::Lint::OrderedMagicComments::FROZEN_STRING_LITERAL_TYPES
 # uninitialized constant RuboCop::Cop::Lint::OrderedMagicComments::FROZEN_STRING_LITERAL_ENABLED
-# Did you mean?  RuboCop::Cop::Lint::OrderedMagicComments::FROZEN_STRING_LITERAL_TYPES
 # uninitialized constant RuboCop::Cop::Lint::OrderedMagicComments::FROZEN_STRING_LITERAL_TYPES
-# Did you mean?  RuboCop::Cop::Lint::OrderedMagicComments::FROZEN_STRING_LITERAL_ENABLED
 # uninitialized constant RuboCop::Cop::Lint::OrderedMagicComments::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Lint::ParenthesesAsGroupedExpression::BYTE_ORDER_MARK
 # uninitialized constant RuboCop::Cop::Lint::ParenthesesAsGroupedExpression::LITERAL_REGEX
@@ -5059,9 +4775,7 @@
 # uninitialized constant RuboCop::Cop::Lint::UnneededCopEnableDirective::BYTE_ORDER_MARK
 # uninitialized constant RuboCop::Cop::Lint::UnneededCopEnableDirective::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Lint::UnneededCopEnableDirective::NO_SPACE_COMMAND
-# Did you mean?  RuboCop::Cop::Lint::UnneededCopEnableDirective::SPACE_COMMAND
 # uninitialized constant RuboCop::Cop::Lint::UnneededCopEnableDirective::SPACE_COMMAND
-# Did you mean?  RuboCop::Cop::Lint::UnneededCopEnableDirective::NO_SPACE_COMMAND
 # uninitialized constant RuboCop::Cop::Lint::UnneededRequireStatement::BYTE_ORDER_MARK
 # uninitialized constant RuboCop::Cop::Lint::UnneededRequireStatement::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Lint::UnneededSplatExpansion::LITERAL_REGEX
@@ -5172,12 +4886,8 @@
 # uninitialized constant RuboCop::Cop::Style::EmptyLambdaParameter::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Style::EmptyLiteral::BYTE_ORDER_MARK
 # uninitialized constant RuboCop::Cop::Style::EmptyLiteral::FROZEN_STRING_LITERAL
-# Did you mean?  RuboCop::Cop::FrozenStringLiteral
-#                RuboCop::Cop::Style::EmptyLiteral::FROZEN_STRING_LITERAL_TYPES
 # uninitialized constant RuboCop::Cop::Style::EmptyLiteral::FROZEN_STRING_LITERAL_ENABLED
-# Did you mean?  RuboCop::Cop::Style::EmptyLiteral::FROZEN_STRING_LITERAL_TYPES
 # uninitialized constant RuboCop::Cop::Style::EmptyLiteral::FROZEN_STRING_LITERAL_TYPES
-# Did you mean?  RuboCop::Cop::Style::EmptyLiteral::FROZEN_STRING_LITERAL_ENABLED
 # uninitialized constant RuboCop::Cop::Style::EmptyLiteral::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Style::EmptyMethod::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Style::Encoding::BYTE_ORDER_MARK
@@ -5193,12 +4903,8 @@
 # uninitialized constant RuboCop::Cop::Style::FormatStringToken::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Style::FrozenStringLiteralComment::BYTE_ORDER_MARK
 # uninitialized constant RuboCop::Cop::Style::FrozenStringLiteralComment::FROZEN_STRING_LITERAL
-# Did you mean?  RuboCop::Cop::FrozenStringLiteral
-#                RuboCop::Cop::Style::FrozenStringLiteralComment::FROZEN_STRING_LITERAL_TYPES
 # uninitialized constant RuboCop::Cop::Style::FrozenStringLiteralComment::FROZEN_STRING_LITERAL_ENABLED
-# Did you mean?  RuboCop::Cop::Style::FrozenStringLiteralComment::FROZEN_STRING_LITERAL_TYPES
 # uninitialized constant RuboCop::Cop::Style::FrozenStringLiteralComment::FROZEN_STRING_LITERAL_TYPES
-# Did you mean?  RuboCop::Cop::Style::FrozenStringLiteralComment::FROZEN_STRING_LITERAL_ENABLED
 # uninitialized constant RuboCop::Cop::Style::FrozenStringLiteralComment::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Style::GlobalVars::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Style::GuardClause::LITERAL_REGEX
@@ -5242,12 +4948,8 @@
 # uninitialized constant RuboCop::Cop::Style::MultilineTernaryOperator::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Style::MultipleComparison::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Style::MutableConstant::FROZEN_STRING_LITERAL
-# Did you mean?  RuboCop::Cop::FrozenStringLiteral
-#                RuboCop::Cop::Style::MutableConstant::FROZEN_STRING_LITERAL_TYPES
 # uninitialized constant RuboCop::Cop::Style::MutableConstant::FROZEN_STRING_LITERAL_ENABLED
-# Did you mean?  RuboCop::Cop::Style::MutableConstant::FROZEN_STRING_LITERAL_TYPES
 # uninitialized constant RuboCop::Cop::Style::MutableConstant::FROZEN_STRING_LITERAL_TYPES
-# Did you mean?  RuboCop::Cop::Style::MutableConstant::FROZEN_STRING_LITERAL_ENABLED
 # uninitialized constant RuboCop::Cop::Style::MutableConstant::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Style::NestedModifier::BYTE_ORDER_MARK
 # uninitialized constant RuboCop::Cop::Style::NestedModifier::LITERAL_REGEX
@@ -5279,12 +4981,8 @@
 # uninitialized constant RuboCop::Cop::Style::RedundantConditional::SPACE
 # uninitialized constant RuboCop::Cop::Style::RedundantException::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Style::RedundantFreeze::FROZEN_STRING_LITERAL
-# Did you mean?  RuboCop::Cop::FrozenStringLiteral
-#                RuboCop::Cop::Style::RedundantFreeze::FROZEN_STRING_LITERAL_TYPES
 # uninitialized constant RuboCop::Cop::Style::RedundantFreeze::FROZEN_STRING_LITERAL_ENABLED
-# Did you mean?  RuboCop::Cop::Style::RedundantFreeze::FROZEN_STRING_LITERAL_TYPES
 # uninitialized constant RuboCop::Cop::Style::RedundantFreeze::FROZEN_STRING_LITERAL_TYPES
-# Did you mean?  RuboCop::Cop::Style::RedundantFreeze::FROZEN_STRING_LITERAL_ENABLED
 # uninitialized constant RuboCop::Cop::Style::RedundantFreeze::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Style::RedundantReturn::BYTE_ORDER_MARK
 # uninitialized constant RuboCop::Cop::Style::RedundantReturn::LITERAL_REGEX
@@ -5326,9 +5024,7 @@
 # uninitialized constant RuboCop::Cop::Style::TernaryParentheses::BYTE_ORDER_MARK
 # uninitialized constant RuboCop::Cop::Style::TernaryParentheses::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Style::TernaryParentheses::NO_SPACE_COMMAND
-# Did you mean?  RuboCop::Cop::Style::TernaryParentheses::SPACE_COMMAND
 # uninitialized constant RuboCop::Cop::Style::TernaryParentheses::SPACE_COMMAND
-# Did you mean?  RuboCop::Cop::Style::TernaryParentheses::NO_SPACE_COMMAND
 # uninitialized constant RuboCop::Cop::Style::TrailingBodyOnClass::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Style::TrailingBodyOnClass::SPACE
 # uninitialized constant RuboCop::Cop::Style::TrailingBodyOnMethodDefinition::LITERAL_REGEX
@@ -5340,9 +5036,7 @@
 # uninitialized constant RuboCop::Cop::Style::TrailingUnderscoreVariable::BYTE_ORDER_MARK
 # uninitialized constant RuboCop::Cop::Style::TrailingUnderscoreVariable::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Style::TrailingUnderscoreVariable::NO_SPACE_COMMAND
-# Did you mean?  RuboCop::Cop::Style::TrailingUnderscoreVariable::SPACE_COMMAND
 # uninitialized constant RuboCop::Cop::Style::TrailingUnderscoreVariable::SPACE_COMMAND
-# Did you mean?  RuboCop::Cop::Style::TrailingUnderscoreVariable::NO_SPACE_COMMAND
 # uninitialized constant RuboCop::Cop::Style::TrivialAccessors::LITERAL_REGEX
 # uninitialized constant RuboCop::Cop::Style::UnlessElse::BYTE_ORDER_MARK
 # uninitialized constant RuboCop::Cop::Style::UnlessElse::LITERAL_REGEX
@@ -5372,11 +5066,7 @@
 # uninitialized constant RuboCop::Formatter::ProgressFormatter::COLOR_FOR_SEVERITY
 # uninitialized constant RuboCop::Formatter::ProgressFormatter::ELLIPSES
 # uninitialized constant RuboCop::MagicComment::EmacsComment::TOKEN
-# Did you mean?  RuboCop::Token
-#                RuboCop::MagicComment::TOKEN
 # uninitialized constant RuboCop::MagicComment::VimComment::TOKEN
-# Did you mean?  RuboCop::Token
-#                RuboCop::MagicComment::TOKEN
 # wrong constant name <Class:Node>
 # wrong constant name children
 # wrong constant name first_column
@@ -5446,14 +5136,11 @@
 # wrong constant name delegate
 # wrong constant name single_delegate
 # uninitialized constant Singleton
-# Did you mean?  SignalException
 # uninitialized constant Singleton
-# Did you mean?  SignalException
 # uninitialized constant Socket::APPEND
 # uninitialized constant Socket::BINARY
 # uninitialized constant Socket::CREAT
 # uninitialized constant Socket::DSYNC
-# Did you mean?  Socket::SYNC
 # uninitialized constant Socket::EXCL
 # uninitialized constant Socket::FNM_CASEFOLD
 # uninitialized constant Socket::FNM_DOTMATCH
@@ -5463,41 +5150,24 @@
 # uninitialized constant Socket::FNM_SHORTNAME
 # uninitialized constant Socket::FNM_SYSCASE
 # uninitialized constant Socket::LOCK_EX
-# Did you mean?  Socket::LOCK_NB
-#                Socket::LOCK_UN
-#                Socket::LOCK_SH
 # uninitialized constant Socket::LOCK_NB
-# Did you mean?  Socket::LOCK_UN
-#                Socket::LOCK_EX
-#                Socket::LOCK_SH
 # uninitialized constant Socket::LOCK_SH
-# Did you mean?  Socket::LOCK_NB
-#                Socket::LOCK_UN
-#                Socket::LOCK_EX
 # uninitialized constant Socket::LOCK_UN
-# Did you mean?  Socket::LOCK_NB
-#                Socket::LOCK_EX
-#                Socket::LOCK_SH
 # uninitialized constant Socket::NOCTTY
 # uninitialized constant Socket::NOFOLLOW
 # uninitialized constant Socket::NONBLOCK
 # uninitialized constant Socket::NULL
 # uninitialized constant Socket::RDONLY
-# Did you mean?  Socket::WRONLY
 # uninitialized constant Socket::RDWR
 # uninitialized constant Socket::SEEK_CUR
 # uninitialized constant Socket::SEEK_DATA
-# Did you mean?  Socket::SEEK_SET
 # uninitialized constant Socket::SEEK_END
 # uninitialized constant Socket::SEEK_HOLE
 # uninitialized constant Socket::SEEK_SET
 # uninitialized constant Socket::SHARE_DELETE
 # uninitialized constant Socket::SYNC
-# Did you mean?  Socket::DSYNC
 # uninitialized constant Socket::TRUNC
-# Did you mean?  TRUE
 # uninitialized constant Socket::WRONLY
-# Did you mean?  Socket::RDONLY
 # wrong constant name <Class:ConstantEntry>
 # wrong constant name all_module_aliases
 # wrong constant name all_module_names
@@ -5642,9 +5312,7 @@
 # wrong constant name <static-init>
 # wrong constant name header
 # uninitialized constant Sorbet::Private::Static
-# Did you mean?  Sorbet::Private::Status
 # uninitialized constant Sorbet::Private::Static
-# Did you mean?  Sorbet::Private::Status
 # wrong constant name <static-init>
 # wrong constant name done
 # wrong constant name say
@@ -5658,6 +5326,7 @@
 # wrong constant name <static-init>
 # wrong constant name main
 # wrong constant name output_file
+# wrong constant name <static-init>
 # wrong constant name <static-init>
 # uninitialized constant SortedSet::InspectKey
 # wrong constant name initialize
@@ -5673,7 +5342,6 @@
 # undefined method `concat$1' for class `String'
 # undefined method `count$1' for class `String'
 # undefined method `delete$1' for class `String'
-# Did you mean?  DelegateClass
 # undefined method `delete!$1' for class `String'
 # undefined method `downcase$1' for class `String'
 # undefined method `downcase!$1' for class `String'
@@ -5682,13 +5350,11 @@
 # undefined method `gsub!$2' for class `String'
 # undefined method `index$1' for class `String'
 # undefined method `initialize$1' for class `String'
-# Did you mean?  initialize
 # undefined method `lines$1' for class `String'
 # undefined method `ljust$1' for class `String'
 # undefined method `match$2' for class `String'
+# undefined method `match?$2' for class `String'
 # undefined method `prepend$1' for class `String'
-# Did you mean?  prepend
-#                prepended
 # undefined method `rindex$1' for class `String'
 # undefined method `rjust$1' for class `String'
 # undefined method `scrub$2' for class `String'
@@ -5740,7 +5406,7 @@
 # wrong constant name lines$1
 # wrong constant name ljust$1
 # wrong constant name match$2
-# wrong constant name match?
+# wrong constant name match?$2
 # wrong constant name prepend$1
 # wrong constant name reverse!
 # wrong constant name rindex$1
@@ -5773,7 +5439,6 @@
 # undefined method `each_line$2' for class `StringIO'
 # undefined method `fcntl$1' for class `StringIO'
 # undefined method `initialize$1' for class `StringIO'
-# Did you mean?  initialize
 # undefined method `lines$2' for class `StringIO'
 # undefined method `read$1' for class `StringIO'
 # undefined method `reopen$2' for class `StringIO'
@@ -5837,7 +5502,6 @@
 # wrong constant name values_at
 # wrong constant name must_C_version
 # undefined method `initialize$1' for class `Struct'
-# Did you mean?  initialize
 # wrong constant name []
 # wrong constant name []=
 # wrong constant name dig
@@ -5876,7 +5540,6 @@
 # wrong constant name T.noreturn
 # wrong constant name T.untyped
 # undefined method `initialize$1' for class `Tempfile'
-# Did you mean?  initialize
 # wrong constant name <Class:Remover>
 # wrong constant name _close
 # wrong constant name initialize$1
@@ -5993,65 +5656,30 @@
 # wrong constant name typecode=
 # wrong constant name new2
 # uninitialized constant URI::File::ABS_PATH
-# Did you mean?  URI::ABS_PATH
 # uninitialized constant URI::File::ABS_URI
-# Did you mean?  URI::ABS_URI
 # uninitialized constant URI::File::ABS_URI_REF
-# Did you mean?  URI::ABS_URI_REF
 # uninitialized constant URI::File::DEFAULT_PARSER
-# Did you mean?  URI::File::DEFAULT_PORT
-#                URI::DEFAULT_PARSER
 # uninitialized constant URI::File::ESCAPED
-# Did you mean?  URI::File::Escape
-#                URI::Escape
-#                URI::ESCAPED
 # uninitialized constant URI::File::FRAGMENT
-# Did you mean?  URI::FRAGMENT
 # uninitialized constant URI::File::HOST
-# Did you mean?  URI::HOST
 # uninitialized constant URI::File::OPAQUE
-# Did you mean?  URI::OPAQUE
 # uninitialized constant URI::File::PORT
-# Did you mean?  URI::PORT
 # uninitialized constant URI::File::QUERY
-# Did you mean?  URI::QUERY
 # uninitialized constant URI::File::REGISTRY
-# Did you mean?  URI::REGISTRY
 # uninitialized constant URI::File::REL_PATH
-# Did you mean?  URI::REL_PATH
 # uninitialized constant URI::File::REL_URI
-# Did you mean?  URI::REL_URI
 # uninitialized constant URI::File::REL_URI_REF
-# Did you mean?  URI::REL_URI_REF
 # uninitialized constant URI::File::RFC3986_PARSER
-# Did you mean?  URI::File::RFC3986_Parser
-#                URI::RFC3986_Parser
-#                URI::RFC2396_Parser
-#                URI::File::RFC2396_Parser
-#                URI::RFC3986_PARSER
 # uninitialized constant URI::File::SCHEME
-# Did you mean?  URI::SCHEME
 # uninitialized constant URI::File::TBLDECWWWCOMP_
-# Did you mean?  URI::File::TBLENCWWWCOMP_
-#                URI::TBLDECWWWCOMP_
-#                URI::TBLENCWWWCOMP_
 # uninitialized constant URI::File::TBLENCWWWCOMP_
-# Did you mean?  URI::File::TBLDECWWWCOMP_
-#                URI::TBLDECWWWCOMP_
-#                URI::TBLENCWWWCOMP_
 # uninitialized constant URI::File::UNSAFE
-# Did you mean?  URI::UNSAFE
 # uninitialized constant URI::File::URI_REF
-# Did you mean?  URI::URI_REF
 # uninitialized constant URI::File::USERINFO
-# Did you mean?  URI::USERINFO
 # uninitialized constant URI::File::USE_REGISTRY
 # uninitialized constant URI::File::VERSION
-# Did you mean?  URI::VERSION
 # uninitialized constant URI::File::VERSION_CODE
-# Did you mean?  URI::VERSION_CODE
 # uninitialized constant URI::File::WEB_ENCODINGS_
-# Did you mean?  URI::WEB_ENCODINGS_
 # wrong constant name check_password
 # wrong constant name check_user
 # wrong constant name check_userinfo

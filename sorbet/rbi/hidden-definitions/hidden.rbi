@@ -87,21 +87,7 @@ end
 
 class BigDecimal
   extend ::T::Sig
-  def self._load(_); end
-
-  def self.double_fig(); end
-
-  def self.limit(*_); end
-
-  def self.mode(*_); end
-
   def self.new(*args, **kwargs); end
-
-  def self.save_exception_mode(); end
-
-  def self.save_limit(); end
-
-  def self.save_rounding_mode(); end
 end
 
 module BigMath
@@ -521,6 +507,10 @@ end
 class Bundler::Graph
 end
 
+class Bundler::Index
+  include ::Enumerable
+end
+
 class Bundler::Injector
   def initialize(deps, options=T.unsafe(nil)); end
 
@@ -574,6 +564,14 @@ end
 
 module Bundler::Molinillo::Delegates
   extend ::T::Sig
+end
+
+class Bundler::Molinillo::DependencyGraph
+  include ::Enumerable
+end
+
+class Bundler::Molinillo::DependencyGraph::Log
+  extend ::Enumerable
 end
 
 module Bundler::Molinillo::SpecificationProvider
@@ -874,6 +872,10 @@ module Bundler::SharedHelpers
   extend ::T::Sig
 end
 
+class Bundler::SpecSet
+  include ::Enumerable
+end
+
 class Bundler::UI::RGProxy
 end
 
@@ -1156,132 +1158,8 @@ class Delegator
   def self.public_api(); end
 end
 
-class DidYouMean::ClassNameChecker
-  def class_name(); end
-
-  def class_names(); end
-
-  def corrections(); end
-
-  def initialize(exception); end
-
-  def scopes(); end
-end
-
-class DidYouMean::ClassNameChecker
-  extend ::T::Sig
-end
-
-module DidYouMean::Correctable
-  def corrections(); end
-
-  def original_message(); end
-
-  def spell_checker(); end
-
-  def to_s(); end
-end
-
-module DidYouMean::Correctable
-  extend ::T::Sig
-end
-
-module DidYouMean::Jaro
-  extend ::T::Sig
-  def self.distance(str1, str2); end
-end
-
-module DidYouMean::JaroWinkler
-  extend ::T::Sig
-  def self.distance(str1, str2); end
-end
-
-class DidYouMean::KeyErrorChecker
-  def corrections(); end
-
-  def initialize(key_error); end
-end
-
-class DidYouMean::KeyErrorChecker
-end
-
-module DidYouMean::Levenshtein
-  extend ::T::Sig
-  def self.distance(str1, str2); end
-
-  def self.min3(a, b, c); end
-end
-
-class DidYouMean::MethodNameChecker
-  def corrections(); end
-
-  def initialize(exception); end
-
-  def method_name(); end
-
-  def method_names(); end
-
-  def receiver(); end
-  RB_RESERVED_WORDS = ::T.let(nil, ::T.untyped)
-end
-
-class DidYouMean::MethodNameChecker
-  extend ::T::Sig
-end
-
-class DidYouMean::NullChecker
-  def corrections(); end
-
-  def initialize(*_); end
-end
-
-class DidYouMean::NullChecker
-  extend ::T::Sig
-end
-
-class DidYouMean::PlainFormatter
-  def message_for(corrections); end
-end
-
-class DidYouMean::PlainFormatter
-end
-
-class DidYouMean::SpellChecker
-  def correct(input); end
-
-  def initialize(dictionary:); end
-end
-
-class DidYouMean::SpellChecker
-  extend ::T::Sig
-end
-
-class DidYouMean::VariableNameChecker
-  def corrections(); end
-
-  def cvar_names(); end
-
-  def initialize(exception); end
-
-  def ivar_names(); end
-
-  def lvar_names(); end
-
-  def method_names(); end
-
-  def name(); end
-  RB_RESERVED_WORDS = ::T.let(nil, ::T.untyped)
-end
-
-class DidYouMean::VariableNameChecker
-  extend ::T::Sig
-end
-
 module DidYouMean
   extend ::T::Sig
-  def self.formatter(); end
-
-  def self.formatter=(formatter); end
 end
 
 class Digest::Base
@@ -1384,6 +1262,8 @@ end
 class ERB
   extend ::T::Sig
 end
+
+Emitter = Psych::Stream::Emitter
 
 class Encoding
   def _dump(*_); end
@@ -1491,8 +1371,6 @@ module Enumerable
   def filter(); end
 
   def grep_v(_); end
-
-  def lazy(); end
 
   def slice_after(*_); end
 
@@ -7023,6 +6901,7 @@ class Integer
 
   def to_bn(); end
 
+  GMP_VERSION = ::T.let(nil, ::T.untyped)
 end
 
 class Integer
@@ -7038,25 +6917,8 @@ class JSON::CircularDatastructure
   extend ::T::Sig
 end
 
-module JSON::Ext
-end
-
-module JSON::Ext::Generator
-end
-
-module JSON::Ext::Generator::GeneratorMethods
-end
-
-module JSON::Ext::Generator::GeneratorMethods::Array
-  def to_json(*_); end
-end
-
 module JSON::Ext::Generator::GeneratorMethods::Array
   extend ::T::Sig
-end
-
-module JSON::Ext::Generator::GeneratorMethods::FalseClass
-  def to_json(*_); end
 end
 
 module JSON::Ext::Generator::GeneratorMethods::FalseClass
@@ -7064,15 +6926,7 @@ module JSON::Ext::Generator::GeneratorMethods::FalseClass
 end
 
 module JSON::Ext::Generator::GeneratorMethods::Float
-  def to_json(*_); end
-end
-
-module JSON::Ext::Generator::GeneratorMethods::Float
   extend ::T::Sig
-end
-
-module JSON::Ext::Generator::GeneratorMethods::Hash
-  def to_json(*_); end
 end
 
 module JSON::Ext::Generator::GeneratorMethods::Hash
@@ -7080,15 +6934,7 @@ module JSON::Ext::Generator::GeneratorMethods::Hash
 end
 
 module JSON::Ext::Generator::GeneratorMethods::Integer
-  def to_json(*_); end
-end
-
-module JSON::Ext::Generator::GeneratorMethods::Integer
   extend ::T::Sig
-end
-
-module JSON::Ext::Generator::GeneratorMethods::NilClass
-  def to_json(*_); end
 end
 
 module JSON::Ext::Generator::GeneratorMethods::NilClass
@@ -7096,23 +6942,7 @@ module JSON::Ext::Generator::GeneratorMethods::NilClass
 end
 
 module JSON::Ext::Generator::GeneratorMethods::Object
-  def to_json(*_); end
-end
-
-module JSON::Ext::Generator::GeneratorMethods::Object
   extend ::T::Sig
-end
-
-module JSON::Ext::Generator::GeneratorMethods::String
-  def to_json(*_); end
-
-  def to_json_raw(*_); end
-
-  def to_json_raw_object(); end
-end
-
-module JSON::Ext::Generator::GeneratorMethods::String::Extend
-  def json_create(_); end
 end
 
 module JSON::Ext::Generator::GeneratorMethods::String::Extend
@@ -7124,10 +6954,6 @@ module JSON::Ext::Generator::GeneratorMethods::String
 end
 
 module JSON::Ext::Generator::GeneratorMethods::TrueClass
-  def to_json(*_); end
-end
-
-module JSON::Ext::Generator::GeneratorMethods::TrueClass
   extend ::T::Sig
 end
 
@@ -7136,62 +6962,7 @@ module JSON::Ext::Generator::GeneratorMethods
 end
 
 class JSON::Ext::Generator::State
-  def [](_); end
-
-  def []=(_, _1); end
-
-  def allow_nan?(); end
-
-  def array_nl(); end
-
-  def array_nl=(array_nl); end
-
-  def ascii_only?(); end
-
-  def buffer_initial_length(); end
-
-  def buffer_initial_length=(buffer_initial_length); end
-
-  def check_circular?(); end
-
-  def configure(_); end
-
-  def depth(); end
-
-  def depth=(depth); end
-
-  def generate(_); end
-
-  def indent(); end
-
-  def indent=(indent); end
-
-  def initialize(*_); end
-
-  def max_nesting(); end
-
-  def max_nesting=(max_nesting); end
-
-  def merge(_); end
-
-  def object_nl(); end
-
-  def object_nl=(object_nl); end
-
-  def space(); end
-
-  def space=(space); end
-
-  def space_before(); end
-
-  def space_before=(space_before); end
-
-  def to_h(); end
-
-  def to_hash(); end
-end
-
-class JSON::Ext::Generator::State
+  extend ::T::Sig
   def self.from_state(_); end
 end
 
@@ -7201,13 +6972,10 @@ end
 
 class JSON::Ext::Parser
   def initialize(*_); end
-
-  def parse(); end
-
-  def source(); end
 end
 
 class JSON::Ext::Parser
+  extend ::T::Sig
 end
 
 module JSON::Ext
@@ -7247,6 +7015,8 @@ JSON::UnparserError = JSON::GeneratorError
 module JSON
   extend ::T::Sig
 end
+
+JSONTree = Psych::Visitors::JSONTree
 
 module JaroWinkler
   VERSION = ::T.let(nil, ::T.untyped)
@@ -7288,7 +7058,6 @@ module Kernel
 end
 
 class KeyError
-  include ::DidYouMean::Correctable
   def key(); end
 
   def receiver(); end
@@ -7539,7 +7308,6 @@ module Mutex_m
 end
 
 class NameError
-  include ::DidYouMean::Correctable
   def name(); end
 
   def receiver(); end
@@ -7630,6 +7398,8 @@ module Net::HTTP::ProxyDelta
   extend ::T::Sig
 end
 
+Net::HTTP::ProxyMod = Net::HTTP::ProxyDelta
+
 class Net::HTTP::Put
   extend ::T::Sig
 end
@@ -7669,17 +7439,13 @@ class Net::HTTPBadResponse
   extend ::T::Sig
 end
 
+Net::HTTPClientError::EXCEPTION_TYPE = Net::HTTPServerException
+
 class Net::HTTPClientError
   extend ::T::Sig
 end
 
-class Net::HTTPClientError
-end
-
-Net::HTTPClientErrorCode::EXCEPTION_TYPE = Net::HTTPServerException
-
-class Net::HTTPClientError
-end
+Net::HTTPClientErrorCode = Net::HTTPClientError
 
 Net::HTTPClientException = Net::HTTPServerException
 
@@ -7905,17 +7671,13 @@ end
 class Net::HTTPRangeNotSatisfiable
 end
 
+Net::HTTPRedirection::EXCEPTION_TYPE = Net::HTTPRetriableError
+
 class Net::HTTPRedirection
   extend ::T::Sig
 end
 
-class Net::HTTPRedirection
-end
-
-Net::HTTPRedirectionCode::EXCEPTION_TYPE = Net::HTTPRetriableError
-
-class Net::HTTPRedirection
-end
+Net::HTTPRedirectionCode = Net::HTTPRedirection
 
 class Net::HTTPRequest
   extend ::T::Sig
@@ -7958,17 +7720,13 @@ class Net::HTTPSeeOther
   extend ::T::Sig
 end
 
+Net::HTTPServerError::EXCEPTION_TYPE = Net::HTTPFatalError
+
 class Net::HTTPServerError
   extend ::T::Sig
 end
 
-class Net::HTTPServerError
-end
-
-Net::HTTPServerErrorCode::EXCEPTION_TYPE = Net::HTTPFatalError
-
-class Net::HTTPServerError
-end
+Net::HTTPServerErrorCode = Net::HTTPServerError
 
 class Net::HTTPServerException
   extend ::T::Sig
@@ -7978,27 +7736,15 @@ class Net::HTTPServiceUnavailable
   extend ::T::Sig
 end
 
-class Net::HTTP
-end
+Net::HTTPSession = Net::HTTP
 
-Net::HTTPSession::ProxyDelta = Net::HTTP::ProxyDelta
-
-Net::HTTPSession::ProxyMod = Net::HTTP::ProxyDelta
-
-class Net::HTTP
-end
+Net::HTTPSuccess::EXCEPTION_TYPE = Net::HTTPError
 
 class Net::HTTPSuccess
   extend ::T::Sig
 end
 
-class Net::HTTPSuccess
-end
-
-Net::HTTPSuccessCode::EXCEPTION_TYPE = Net::HTTPError
-
-class Net::HTTPSuccess
-end
+Net::HTTPSuccessCode = Net::HTTPSuccess
 
 class Net::HTTPSwitchProtocol
   extend ::T::Sig
@@ -8159,7 +7905,6 @@ class NoMemoryError
 end
 
 class NoMethodError
-  include ::DidYouMean::Correctable
   def args(); end
 
   def private_call?(); end
@@ -8489,7 +8234,11 @@ end
 
 module OpenSSL::KDF
   extend ::T::Sig
+  def self.hkdf(*_); end
+
   def self.pbkdf2_hmac(*_); end
+
+  def self.scrypt(*_); end
 end
 
 class OpenSSL::Netscape::SPKI
@@ -8586,6 +8335,10 @@ class OpenSSL::PKey::DSAError
   extend ::T::Sig
 end
 
+class OpenSSL::PKey::EC
+  EXPLICIT_CURVE = ::T.let(nil, ::T.untyped)
+end
+
 class OpenSSL::PKey::EC::Group::Error
   extend ::T::Sig
 end
@@ -8649,15 +8402,20 @@ module OpenSSL::Random
 end
 
 module OpenSSL::SSL
+  OP_ALLOW_NO_DHE_KEX = ::T.let(nil, ::T.untyped)
   OP_ALLOW_UNSAFE_LEGACY_RENEGOTIATION = ::T.let(nil, ::T.untyped)
   OP_CRYPTOPRO_TLSEXT_BUG = ::T.let(nil, ::T.untyped)
   OP_LEGACY_SERVER_CONNECT = ::T.let(nil, ::T.untyped)
+  OP_NO_ENCRYPT_THEN_MAC = ::T.let(nil, ::T.untyped)
+  OP_NO_RENEGOTIATION = ::T.let(nil, ::T.untyped)
+  OP_NO_TLSv1_3 = ::T.let(nil, ::T.untyped)
   OP_SAFARI_ECDHE_ECDSA_BUG = ::T.let(nil, ::T.untyped)
   OP_TLSEXT_PADDING = ::T.let(nil, ::T.untyped)
   SSL2_VERSION = ::T.let(nil, ::T.untyped)
   SSL3_VERSION = ::T.let(nil, ::T.untyped)
   TLS1_1_VERSION = ::T.let(nil, ::T.untyped)
   TLS1_2_VERSION = ::T.let(nil, ::T.untyped)
+  TLS1_3_VERSION = ::T.let(nil, ::T.untyped)
   TLS1_VERSION = ::T.let(nil, ::T.untyped)
 end
 
@@ -8727,6 +8485,7 @@ module OpenSSL::SSL
 end
 
 module OpenSSL::X509
+  V_FLAG_NO_CHECK_TIME = ::T.let(nil, ::T.untyped)
   V_FLAG_TRUSTED_FIRST = ::T.let(nil, ::T.untyped)
 end
 
@@ -9328,8 +9087,6 @@ class Proc
   def ===(*_); end
 
   def >>(_); end
-
-  def [](*_); end
 
   def clone(); end
 
@@ -14282,8 +14039,6 @@ class String
 
   def grapheme_clusters(); end
 
-  def match?(*_); end
-
   def reverse!(); end
 
   def shellescape(); end
@@ -15165,6 +14920,8 @@ module UnicodeNormalize
   extend ::T::Sig
 end
 
+Visitor = Psych::Visitors::Visitor
+
 module Warning
   def warn(_); end
 end
@@ -15175,6 +14932,8 @@ module Warning
 end
 
 YAML = Psych
+
+YAMLTree = Psych::Visitors::YAMLTree
 
 class ZeroDivisionError
   extend ::T::Sig
